@@ -18,7 +18,7 @@ body {
 .item{
     padding: 10px;
     width: 65%;
-    height: 75%;
+    height: 65%;
     background-color: rgba(192, 186, 186, 0.767);
     border-radius: 10px;
     box-shadow: 1px 2px 5px black;
@@ -72,7 +72,7 @@ input[type=lastname]{
     float: right;
     padding-right:3.2%;
     text-align: right;
-    font-size: 0.9rem;
+    font-size: 12px;
     text-decoration: none;
 }
 #rememberme{
@@ -83,6 +83,7 @@ input[type=lastname]{
 #remember{
     float: left;
     margin-left: 1%;
+    font-size: 12px;
 }
 input[type=submit]{
     margin-top: 5px;
