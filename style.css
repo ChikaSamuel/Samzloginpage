@@ -18,9 +18,10 @@ body {
 .item{
     padding: 10px;
     width: 65%;
-    height: 60%;
+    height: 75%;
     background-color: rgba(192, 186, 186, 0.767);
     border-radius: 10px;
+    box-shadow: 1px 2px 5px black;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -28,7 +29,7 @@ body {
 }
 /* style for index */
 h2{
-    padding: 0;
+    padding-top: 2.5rem;
     margin: 3PX;
     color: rgb(180, 23, 31);
     font-size:2.2rem ;
@@ -62,15 +63,26 @@ h3{
 input[type=text], input[type=password], input[type=email], 
 input[type=lastname]{
     width: 90%;
-    padding:5px;
+    padding:8px;
     margin:2px ;
     border: none;
     background: #f1f1f1b6;
 }
-#rm, #fp {
-    text-align: left;
-    font-size: 0.8rem;
+ #fp {
+    float: right;
+    padding-right:3.2%;
+    text-align: right;
+    font-size: 0.9rem;
     text-decoration: none;
+}
+#rememberme{
+    float: left;
+    margin-left: 4%;
+    margin-top: 5px;
+}
+#remember{
+    float: left;
+    margin-left: 1%;
 }
 input[type=submit]{
     margin-top: 5px;
