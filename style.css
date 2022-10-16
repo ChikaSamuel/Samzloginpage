@@ -83,6 +83,7 @@ input[type=lastname]{
 #remember{
     float: left;
     margin-left: 1%;
+    margin-top: 4px;
     font-size: 12px;
 }
 input[type=submit]{
